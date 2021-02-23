@@ -8,9 +8,7 @@
       <% end %>
     </div>
     <div class="card__wrapper">
-      <% if user_signed_in? %>
        <%= render partial: "prototypes/prototype",collection:@prototypes %>
-      <% end %>
     </div>
   </div>
 </main>
